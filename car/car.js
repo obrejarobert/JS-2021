@@ -6,6 +6,7 @@ let audirs5 = {
     mileage: 0,
     maxSpeed: 280,
     averageConsumption: 11.5,
+    batteryCapacity: 150,
     batteryCharge: 150,
 
     paint: function (color) {
@@ -15,6 +16,11 @@ let audirs5 = {
     move: function (distance) {
         consumption = this.averageConsumption * distance / 100
         this.batteryCharge -= consumption
+        this.mileage += distance
+    },
+
+    recharge: function () {
+    this.batteryCharge = this.batteryCapacity
     }
 }
 
@@ -31,8 +37,10 @@ let audirs7 = {
     }
 }
 
-audirs5.paint("yellow")
+audirs5.paint ("yellow")
 
-console.log(audirs5)
+audirs5.move (100)
 
-console.log(audirs7)
+console.log (audirs5)
+
+console.log (audirs7)
