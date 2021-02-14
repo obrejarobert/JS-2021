@@ -24,3 +24,9 @@ document.getElementById("reset")
 
         // planet.remove()
     })
+
+document.getElementById("greenplanet")
+    .addEventListener("click", function () {
+        document.getElementById("greenplanet")
+            .classList.add("alert")
+    })
