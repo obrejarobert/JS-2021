@@ -1,13 +1,13 @@
-MERCURY = { name: "Mercury", mass: 3.303e+23, radius: 2.4397e6 }
-VENUS = { name: "Venus", mass: 4.869e+24, radius: 6.0518e6 }
-EARTH = { name: "Earth", mass: 5.976e+24, radius: 6.37814e6 }
-MARS = { name: "Mars", mass: 6.421e+23, radius: 3.3972e6 }
-JUPITER = { name: "Jupiter", mass: 1.9e+27, radius: 7.1492e7 }
-SATURN = { name: "Saturn", mass: 5.688e+26, radius: 6.0268e7 }
-URANUS = { name: "Uranus", mass: 8.686e+25, radius: 2.5559e7 }
-NEPTUNE = { name: "Neptune", mass: 1.024e+26, radius: 2.4746e7 }
+const MERCURY = { name: "Mercury", mass: 3.303e+23, radius: 2.4397e6 }
+const VENUS = { name: "Venus", mass: 4.869e+24, radius: 6.0518e6 }
+const EARTH = { name: "Earth", mass: 5.976e+24, radius: 6.37814e6 }
+const MARS = { name: "Mars", mass: 6.421e+23, radius: 3.3972e6 }
+const JUPITER = { name: "Jupiter", mass: 1.9e+27, radius: 7.1492e7 }
+const SATURN = { name: "Saturn", mass: 5.688e+26, radius: 6.0268e7 }
+const URANUS = { name: "Uranus", mass: 8.686e+25, radius: 2.5559e7 }
+const NEPTUNE = { name: "Neptune", mass: 1.024e+26, radius: 2.4746e7 }
 
-G = 6.67300E-11;
+const G = 6.67300E-11;
 
 var planets = [MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE]
 
